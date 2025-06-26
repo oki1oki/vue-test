@@ -38,7 +38,7 @@
           >
             <td v-for="col in columns" :key="col.value">
               <TooltipProvider>
-                <Tooltip>
+                <Tooltip :delay-duration="1500">
                   <TooltipTrigger class="w-full truncate p-2 text-left">{{
                     photo[col.value]
                   }}</TooltipTrigger>
