@@ -1,39 +1,32 @@
-# test-task
+# 📸 Photo Table — Vue 3 Test Task
 
-This template should help get you started developing with Vue 3 in Vite.
+> Интерфейс для отображения и фильтрации фотографий из [JSONPlaceholder](https://jsonplaceholder.typicode.com/).
 
-## Recommended IDE Setup
+## ✨ Возможности
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+- ⚙️ Реализация на Vue 3 + Composition API
+- 🔁 Используется Pinia для управления состоянием
+- 🎨 Стилизация через Tailwind CSS
+- 💡 Реализована тёмная/светлая тема с переключением и сохранением в localStorage
+- 💾 Сохранение введённых ID альбомов в localStorage
+- 🔍 Поиск по ID альбомов (множественный ввод через пробел)
+- 📥 Динамическая подгрузка фотографий при скролле
+- 📊 Таблица с сортировкой по каждому столбцу
+- 🧱 Таблица реализована вручную — без UI-компонентов, за исключением базовых элементов из shadcn-vue
 
-## Type Support for `.vue` Imports in TS
+## 📦 Технологии
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
+- [Vue 3](https://vuejs.org/) (Composition API, `<script setup>`)
+- [Pinia](https://pinia.vuejs.org/) — стейт-менеджер
+- [Tailwind CSS](https://tailwindcss.com/) — утилитарные стили
+- [vueuse](https://vueuse.org/) — утилиты (используется для localStorage, scroll detection)
+- [shadcn-vue](https://www.shadcn-vue.com/) — частично использован (иконки, кнопки и поля)
 
-## Customize configuration
+## 🚀 Как запустить проект
 
-See [Vite Configuration Reference](https://vite.dev/config/).
-
-## Project Setup
-
-```sh
+```bash
+# Установка зависимостей
 npm install
-```
 
-### Compile and Hot-Reload for Development
-
-```sh
+# Запуск локального сервера
 npm run dev
-```
-
-### Type-Check, Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
