@@ -2,7 +2,7 @@
 
 > Интерфейс для отображения и фильтрации фотографий из [JSONPlaceholder](https://jsonplaceholder.typicode.com/).
 
-## [Демо](vue-test-peach-five.vercel.app)
+## [Демо](https://vue-test-peach-five.vercel.app)
 
 ## ✨ Возможности
 
